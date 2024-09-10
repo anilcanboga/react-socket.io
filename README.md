@@ -5,4 +5,4 @@ node server.js
 
 frontend
 yarn dev
-nom run dev
+npm run dev
