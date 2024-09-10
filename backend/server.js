@@ -8,9 +8,9 @@ const port = 3001;
 
 const io = new Server(server, {
     cors: {
-        origin: "http://localhost:3000",  // İzin vermek istediğiniz frontend URL'sini buraya yazın
+        origin: "http://localhost:3000", 
         methods: ["GET", "POST"],
-        credentials: true  // Gerekirse kimlik bilgilerine izin verin
+        credentials: true
     }
 });
 
